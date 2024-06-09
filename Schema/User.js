@@ -11,7 +11,7 @@ const userSchema = new mongoose.Schema({
             type: String,
             lowercase: true,
             required: true,
-            minlength: [3, 'fullname must be 3 letters long'],
+            minlength: [3, 'fullname must be 3 letter long'],
         },
         email: {
             type: String,
